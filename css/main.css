@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  text-align: center;
+  color: #bebebe;
+  font-weight: 300;
+  margin-top: auto;
+}
+
+footer a {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+@media (min-width: 992px) {
+  nav {
+    padding: 1em 4em !important;
+  }
+  .nav-item {
+    margin: 0 0 0 35px;
+  }
+  .navbar-brand {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    text-align: right;
+  }
+  .navbar-brand {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

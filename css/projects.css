@@ -1,0 +1,67 @@
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  text-align: center;
+  color: #bebebe;
+  font-weight: 300;
+  margin-top: auto;
+}
+
+footer a {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+.conteiner {
+  padding: 2em 3em;
+}
+
+.conteiner h1 {
+  margin: 20px 0 30px 10px;
+}
+
+.conteiner .card {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 6px rgba(12, 12, 12, 0.089);
+          box-shadow: 5px 6px rgba(12, 12, 12, 0.089);
+}
+
+@media (min-width: 992px) {
+  nav {
+    padding: 1em 4em !important;
+  }
+  .nav-item {
+    margin: 0 0 0 35px;
+  }
+  .navbar-brand {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    text-align: right;
+  }
+  .conteiner {
+    padding: 1em 1.1em;
+  }
+  .conteiner .card {
+    margin-bottom: 20px;
+  }
+  .navbar-brand {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=projects.css.map */
