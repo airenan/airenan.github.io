@@ -42,6 +42,10 @@ nav {
   margin-left: 10%;
 }
 
+.col-sm-3 {
+  width: 50% !important;
+}
+
 .row_skills p {
   font-weight: bold;
   text-align: center;
@@ -114,8 +118,8 @@ nav {
   border-right: 0;
   -webkit-transform-origin: center right;
   transform-origin: center right;
-  -webkit-animation: loading-1 1.8s linear forwards;
-          animation: loading-1 1.8s linear forwards;
+  -webkit-animation: loading-1 1.0s linear forwards;
+          animation: loading-1 1.0s linear forwards;
 }
 
 .progress .progress-value {
@@ -137,35 +141,8 @@ nav {
 }
 
 .progress.blue .progress-left .progress-bar {
-  -webkit-animation: loading-2 1.5s linear forwards 1.8s;
-          animation: loading-2 1.5s linear forwards 1.8s;
-}
-
-.progress.yellow .progress-bar {
-  border-color: #fdba04;
-}
-
-.progress.yellow .progress-left .progress-bar {
-  -webkit-animation: loading-3 1s linear forwards 1.8s;
-          animation: loading-3 1s linear forwards 1.8s;
-}
-
-.progress.pink .progress-bar {
-  border-color: #ed687c;
-}
-
-.progress.pink .progress-left .progress-bar {
-  -webkit-animation: loading-4 0.4s linear forwards 1.8s;
-          animation: loading-4 0.4s linear forwards 1.8s;
-}
-
-.progress.green .progress-bar {
-  border-color: #1abc9c;
-}
-
-.progress.green .progress-left .progress-bar {
-  -webkit-animation: loading-5 1.2s linear forwards 1.8s;
-          animation: loading-5 1.2s linear forwards 1.8s;
+  -webkit-animation: loading-2 1.0s linear forwards 1.0s;
+          animation: loading-2 1.0s linear forwards 1.0s;
 }
 
 @-webkit-keyframes loading-1 {
