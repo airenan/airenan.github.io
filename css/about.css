@@ -33,7 +33,7 @@ nav {
 }
 
 .conteiner .divimg {
-  width: 85%;
+  width: 70%;
 }
 
 .conteiner .divimg img {
@@ -73,7 +73,7 @@ nav {
   .divimg img {
     border-radius: 100%;
     width: 50%;
-    margin-left: 8% !important;
+    margin-left: 22% !important;
   }
   #first {
     -webkit-box-ordinal-group: 3;
