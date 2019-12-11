@@ -2,11 +2,16 @@ body {
   overflow-x: hidden;
 }
 
+.conteiner {
+  text-align: center;
+  margin-top: 30vh;
+}
+
 footer {
   text-align: center;
   color: #bebebe;
   font-weight: 300;
-  margin-top: auto;
+  margin-top: 84vh;
 }
 
 footer a {
