@@ -22,8 +22,7 @@ nav {
   font-weight: 300;
 }
 
-.conteiner {
-  padding: 2em 3em;
+.container-fluid {
 
   h1 {
     margin: 20px 0 30px 10px;
@@ -51,6 +50,13 @@ nav {
     margin-top: 40px;
     font-size: 18px;
   }
+}
+
+#third {
+  background-color: #606265;
+  padding: 0 130px 102px 130px;
+  margin: 0 0 -120px 0;
+  color: #fff;
 }
 
 .progress{
@@ -121,7 +127,7 @@ nav {
   border-radius: 50%;
   background: transparent;
   font-size: 24px;
-  color: #000;
+  color: #fff;
   line-height: 135px;
   text-align: center;
   position: absolute;
@@ -345,6 +351,7 @@ nav {
 
   #third {
     order: 3;
-  }
+    background-color: #606265;
+    padding: 0 30px 102px 30px;}
 
 }
