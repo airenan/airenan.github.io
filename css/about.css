@@ -507,5 +507,24 @@ nav {
     background-color: #606265;
     padding: 0 30px 102px 30px;
   }
+  #first p {
+    padding: 40px 70px 70px 20px;
+    font-size: 19px;
+  }
+  .container-fluid #h11 {
+    margin: 70px 0 30px 10px;
+  }
+  .container-fluid #h12 {
+    margin: 70px 0 30px 0;
+  }
+  .container-fluid .divimg {
+    width: 70%;
+  }
+  .container-fluid .divimg img {
+    border-radius: 100%;
+    width: 80%;
+    margin-left: 7%;
+    margin-bottom: 50px;
+  }
 }
 /*# sourceMappingURL=about.css.map */
