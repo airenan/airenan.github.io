@@ -24,8 +24,13 @@ nav {
   font-weight: 300;
 }
 
+#first p {
+  padding: 40px 70px 70px 200px;
+  font-size: 19px;
+}
+
 .container-fluid h1 {
-  margin: 20px 0 30px 10px;
+  margin: 70px 0 30px 210px;
 }
 
 .container-fluid .divimg {
@@ -34,8 +39,9 @@ nav {
 
 .container-fluid .divimg img {
   border-radius: 100%;
-  width: 100%;
-  margin-left: 10%;
+  width: 80%;
+  margin-left: 7%;
+  margin-bottom: 50px;
 }
 
 .col-sm-3 {
