@@ -490,15 +490,15 @@ nav {
     margin-left: 22% !important;
   }
   #first {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    margin-top: 25px;
-  }
-  #second {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    margin-top: 25px;
+  }
+  #second {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   #third {
     -webkit-box-ordinal-group: 4;
