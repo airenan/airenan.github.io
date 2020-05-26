@@ -520,4 +520,17 @@ nav {
     margin-bottom: 0px;
   }
 }
+
+.fab-redes {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #3333df), to(#c9c9c9));
+  background: linear-gradient(to top right, #3333df 50%, #c9c9c9);
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 15px 16.5px;
+  font-size: 20px;
+}
 /*# sourceMappingURL=about.css.map */
