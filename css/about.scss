@@ -67,8 +67,11 @@ nav {
 #third {
   background-color: #606265;
   padding: 0 130px 102px 130px;
-  margin: 0 0 -120px 0;
   color: #fff;
+}
+
+.sombra {
+  text-shadow: 1px 1px 2px #00000093;
 }
 
 .progress{
@@ -131,7 +134,9 @@ nav {
   animation: loading-100 1.0s linear forwards;
 }
 
-
+#four {
+  order: 4;
+}
 
 .progress .progress-value{
   width: 90%;
@@ -380,6 +385,14 @@ nav {
     border-radius: 100%;
     width: 100%;
     margin-bottom: 0px;
+  }
+
+  .carousel-caption {
+    padding: 0 !important;
+  }
+
+  .four {
+    order: 4;
   }
 }
 

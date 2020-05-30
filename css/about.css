@@ -62,8 +62,11 @@ nav {
 #third {
   background-color: #606265;
   padding: 0 130px 102px 130px;
-  margin: 0 0 -120px 0;
   color: #fff;
+}
+
+.sombra {
+  text-shadow: 1px 1px 2px #00000093;
 }
 
 .progress {
@@ -133,6 +136,12 @@ nav {
   transform-origin: center right;
   -webkit-animation: loading-100 1.0s linear forwards;
           animation: loading-100 1.0s linear forwards;
+}
+
+#four {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
 }
 
 .progress .progress-value {
@@ -518,6 +527,14 @@ nav {
     border-radius: 100%;
     width: 100%;
     margin-bottom: 0px;
+  }
+  .carousel-caption {
+    padding: 0 !important;
+  }
+  .four {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
   }
 }
 
